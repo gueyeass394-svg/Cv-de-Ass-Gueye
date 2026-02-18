@@ -5,7 +5,7 @@ import streamlit.components.v1 as components
 st.set_page_config(page_title="Mon CV", layout="wide")
 
 # Lecture du fichier HTML
-with open("cv.html", "r", encoding="utf-8") as f:
+with open("cv-de-Ass-Gueye.html", "r", encoding="utf-8") as f:
     html_content = f.read()
 
 # Affichage du HTML dans Streamlit
